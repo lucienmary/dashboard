@@ -1,0 +1,27 @@
+body{
+    background-color: $c-dark;
+    color: white;
+    font-family: $f-main;
+}
+header{
+    color: $c-text;
+    background: $g-main;
+    padding-top: 20px;
+    border-radius: 0px 0px 10px 10px;
+    h1{
+        font-weight: 800;
+        font-size: 28px;
+        // text-align: center;
+        text-transform: uppercase;
+        text-shadow: 0px 3px 0px $c-dark; 
+    }
+    input{
+        margin-top: 5px;
+        margin-bottom: 20px;
+        border: 1px solid $c-light;
+        border-radius: 5px;
+        padding: 7px 0px;
+        background-color: $c-dark;
+        color: $c-text;
+    }
+}
