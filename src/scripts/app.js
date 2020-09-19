@@ -1,5 +1,3 @@
-import hello from './components/hello';
-import { name } from './components/hello2';
+import { moviesListView } from './components/movie.js';
 
-console.info(`Hello ${hello.name}`);
-console.info(`Hello ${name()}`);
+moviesListView();
