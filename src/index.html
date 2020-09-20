@@ -9,14 +9,23 @@
 
     <title>MyF*Movie 🎬</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/styles/app.css">
 </head>
 <body>
-    <header class="container">
-        <h1 class="">MyF*Movie</h1>
-        <input class="col-12" type="search" name="search" value="" placeholder="Search...">
+    <header>
+        <div class="container mainbar">
+            <a class="burger" href="#">
+                <span class="burger__picto">Menu</span>
+            </a>
+            <h1 class="">MyF*Movie</h1>
+            <a class="help" href="#">?</a>
+        </div>
+
+        <div class="container">
+            <input class="col-12 search" type="search" name="search" value="" placeholder="Search...">
+        </div>
     </header>
 
     <section class="menu">
@@ -30,10 +39,10 @@
         </nav>
     </section>
 
-    <section class="container">
+    <section class="main-view container">
         <h2>New releases</h2>
 
-        <ul id="results" class="results">
+        <ul id="results" class="movielist offset-2 col-8">
 
         </ul>
     </section>

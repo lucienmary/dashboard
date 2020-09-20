@@ -7,3 +7,34 @@
     background-color: blue;
     transform: translate(-100%);
 }
+.burger{
+    position: absolute;
+    top: 16px;
+    &__picto{
+        width: 28px;
+        height: 2px;
+        background-color: $c-text;
+        font-size: 0;
+
+        display: inline-block;
+        position: relative;
+        &:before{
+            content: '';
+            width: 28px;
+            height: 2px;
+            background-color: $c-text;
+
+            position: absolute;
+            top: -10px;
+        }
+        &:after{
+            content: '';
+            width: 28px;
+            height: 2px;
+            background-color: $c-text;
+
+            position: absolute;
+            top: 10px;
+        }
+    }
+}
